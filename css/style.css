@@ -1,0 +1,121 @@
+#screen{
+	border-style: solid;
+	border-color: red;
+}
+
+#dance{
+	background:    #fff;
+	border:        1px solid #007aff;
+	border-radius: 5px;
+	box-shadow: 0 1px 0 0 #bce;
+	color:         #007aff;
+	display:       inline-block;
+	padding:       10px 25px;
+	font:          normal 700 24px/1 "Lobster Two", cursive;
+	text-align:    center;
+	text-shadow:   none;
+}
+
+#doption{
+	background: #fff;
+	border-style: ridge;
+	border-color: blue;
+	width: 0;
+	height: 0;
+}
+
+.move{
+	width: 80;
+	height: 80;
+	border-style: ridge;
+	border-color: green;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.pagesticker{
+	width: 80;
+	height: 80;
+	border-style: ridge;
+	border-color: red;
+	position: absolute;
+	z-index: 1;
+}
+
+#start{
+	width: 100px;
+	height: 100px;
+  	line-height: 0px;
+  	text-align: center;
+	position: absolute;
+	top: 100px;
+	left: 390px;
+	border-style: ridge;
+	border-color: blue;
+	
+}
+
+#text{
+	position: relative;
+	top: -65px;
+}
+
+#tail{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top:100px;
+	left: 495px;
+	border-style: ridge;
+	border-color: yellow;
+	
+}
+
+#tail.yui3-dd-drop-over {
+    background-color: #33CCFF;
+}
+
+#bar{
+	width: 13px;
+	height: 95px;
+	position: relative;
+	left: 90px;
+	background-color: red;
+	border-style: ridge;
+	border-color: red;
+	z-index: 3;
+}
+
+#stop{
+	width: 100px;
+	height: 100px;
+  	line-height: 100px;
+  	text-align: center;
+	position: absolute;
+	top: 210px;
+	left: 390px;
+	border-style: ridge;
+	border-color: blue;
+}
+
+#reset{
+	width: 100px;
+	height: 100px;
+  	line-height: 100px;
+  	text-align: center;
+	position: absolute;
+	top: 320px;
+	left: 390px;
+	border-style: ridge;
+	border-color: blue;
+}
+
+#trashcan{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 320px;
+	left: 900px;
+}

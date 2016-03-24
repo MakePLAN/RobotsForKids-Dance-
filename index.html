@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Dance Box</title>
+		<script src="js/script.js"></script>
+		<script src="js/hashtable.js"></script>
+		<script src="js/prototype.js" type="text/javascript"></script>
+		<script src="js/scriptaculous.js" type="text/javascript"></script>
+		<script src="http://yui.yahooapis.com/3.18.1/build/yui/yui-min.js"></script>
+		<script type="text/javascript" src="http://cdn.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
+		<script type="text/javascript" src="http://cdn.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="screen">
+			<button id="dance" >Dance</button>
+			<div id="doption">
+				<img id="mario" class="move" src="musicImg/mario.png" onclick="addSticker(this);">
+				<img id="lulgi" class="move" src="musicImg/lulgi.png" onclick="addSticker(this);">
+				<img id="peach" class="move" src="musicImg/peach.png" onclick="addSticker(this);">
+				<img id="bowser" class="move" src="musicImg/bowser.png" onclick="addSticker(this);">
+				<img id="yoshi" class="move" src="musicImg/yoshi.png" onclick="addSticker(this);">
+				<img id="robot" class="move" src="musicImg/robot.png" onclick="addSticker(this);">
+				<img id="walle" class="move" src="musicImg/walle.png" onclick="addSticker(this);">
+				<img id="minion" class="move" src="musicImg/minion.png" onclick="addSticker(this);">
+				<img id="turtle" class="move" src="musicImg/turtle.png" onclick="addSticker(this);">
+				<img id="bomb" class="move" src="musicImg/bomb.png" onclick="addSticker(this);">
+			</div>
+			<div id="start" onclick="printMap();">
+				<div id="bar">
+				</div>
+				<p id="text">Start</p>
+			</div>
+			<div id="tail">
+			</div>
+			<div id="stop" onclick="stopAnim();">
+				Stop
+			</div>
+			<div id="reset" onclick="reset();">
+				Reset
+			</div>
+
+			<img id="trashcan" src="musicImg/trashcanclose.png" >
+
+			
+		</div>
+		
+		
+	</body>
+</html>
